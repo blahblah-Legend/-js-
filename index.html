@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my chrome</title>
+    <link rel="stylesheet" href="mycss.css">
+</head>
+
+<body>
+    <form class="center title" id="MyForm">
+        <h1 id="title">Welcome!</h1>
+        <div class="" id="login">
+            <input class="input" id="MyName" type="text" placeholder="hello, what's your name?" required>
+            <input id="MyButton" type="submit" value="Enter">
+        </div>
+        <h3 id="greeting" class="hidden">glad to See you!</h3>
+    </form>
+
+    <form id="todoForm">
+        <input type="text" id="todotext" placeholder="What will you do today?" required>
+    </form>
+    <h1 id="todo">♠ Your Todo List ♠
+        <ul id="list">
+
+        </ul>
+    </h1>
+
+
+    <h1 id="clock">00:00:00</h1>
+    <h1 id="date">00년 00일 금요일</h1>
+
+    <h1 id="weather"></h1>
+
+
+    <script src="scripts/formlogin.js"></script>
+    <script src="scripts/clock.js"></script>
+    <script src="scripts/background.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/todo.js"></script>
+</body>
+</html>
